@@ -1,0 +1,12 @@
+c:\users\polat\documents\visual studio 2013\Projects\MyEvernoteSolution\MyEvernote.WebApp\bin\MyEvernote.WebApp.dll.config
+c:\users\polat\documents\visual studio 2013\Projects\MyEvernoteSolution\MyEvernote.WebApp\bin\MyEvernote.WebApp.dll
+c:\users\polat\documents\visual studio 2013\Projects\MyEvernoteSolution\MyEvernote.WebApp\bin\MyEvernote.WebApp.pdb
+c:\users\polat\documents\visual studio 2013\Projects\MyEvernoteSolution\MyEvernote.WebApp\obj\Debug\MyEvernote.WebApp.csprojResolveAssemblyReference.cache
+c:\users\polat\documents\visual studio 2013\Projects\MyEvernoteSolution\MyEvernote.WebApp\obj\Debug\MyEvernote.WebApp.dll
+c:\users\polat\documents\visual studio 2013\Projects\MyEvernoteSolution\MyEvernote.WebApp\obj\Debug\MyEvernote.WebApp.pdb
+D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MyEvernote.WebApp\bin\MyEvernote.WebApp.dll.config
+D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MyEvernote.WebApp\bin\MyEvernote.WebApp.dll
+D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MyEvernote.WebApp\bin\MyEvernote.WebApp.pdb
+D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MyEvernote.WebApp\obj\Debug\MyEvernote.WebApp.csprojResolveAssemblyReference.cache
+D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MyEvernote.WebApp\obj\Debug\MyEvernote.WebApp.dll
+D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MyEvernote.WebApp\obj\Debug\MyEvernote.WebApp.pdb
