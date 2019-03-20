@@ -6,3 +6,19 @@
 body {
   padding-top: 56px;
 }
+
+.ratings {
+  padding-right :10px;
+  padding-left:10px;
+  color:#d17581;
+}
+.ratings button {
+
+  color:#d17581;
+}
+
+.ratings button:hover {
+
+  color:#ac5460;
+}
+

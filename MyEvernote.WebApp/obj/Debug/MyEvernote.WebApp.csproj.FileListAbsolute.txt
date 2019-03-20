@@ -10,3 +10,9 @@ D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MyEvernote.WebApp\bin\MyEverno
 D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MyEvernote.WebApp\obj\Debug\MyEvernote.WebApp.csprojResolveAssemblyReference.cache
 D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MyEvernote.WebApp\obj\Debug\MyEvernote.WebApp.dll
 D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MyEvernote.WebApp\obj\Debug\MyEvernote.WebApp.pdb
+D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEvernote.WebApp\bin\MyEvernote.WebApp.dll.config
+D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEvernote.WebApp\bin\MyEvernote.WebApp.dll
+D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEvernote.WebApp\bin\MyEvernote.WebApp.pdb
+D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEvernote.WebApp\obj\Debug\MyEvernote.WebApp.csprojResolveAssemblyReference.cache
+D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEvernote.WebApp\obj\Debug\MyEvernote.WebApp.dll
+D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEvernote.WebApp\obj\Debug\MyEvernote.WebApp.pdb
