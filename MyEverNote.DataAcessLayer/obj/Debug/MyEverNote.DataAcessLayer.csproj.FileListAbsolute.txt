@@ -1,0 +1,14 @@
+D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEverNote.DataAcessLayer\obj\Debug\MyEverNote.DataAcessLayer.csprojResolveAssemblyReference.cache
+D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEverNote.DataAcessLayer\bin\Debug\MyEverNote.DataAcessLayer.dll.config
+D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEverNote.DataAcessLayer\bin\Debug\MyEverNote.DataAcessLayer.dll
+D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEverNote.DataAcessLayer\bin\Debug\MyEverNote.DataAcessLayer.pdb
+D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEverNote.DataAcessLayer\bin\Debug\EntityFramework.dll
+D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEverNote.DataAcessLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEverNote.DataAcessLayer\bin\Debug\FakeData.dll
+D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEverNote.DataAcessLayer\bin\Debug\EntityFramework.xml
+D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEverNote.DataAcessLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEverNote.DataAcessLayer\bin\Debug\FakeData.pdb
+D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEverNote.DataAcessLayer\obj\Debug\MyEverNote.DataAcessLayer.dll
+D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEverNote.DataAcessLayer\obj\Debug\MyEverNote.DataAcessLayer.pdb
+D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEverNote.DataAcessLayer\bin\Debug\MyEverNote.Entities.dll
+D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEverNote.DataAcessLayer\bin\Debug\MyEverNote.Entities.pdb

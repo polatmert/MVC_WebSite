@@ -1,0 +1,4 @@
+D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEverNote.Entities\bin\Debug\MyEverNote.Entities.dll
+D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEverNote.Entities\bin\Debug\MyEverNote.Entities.pdb
+D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEverNote.Entities\obj\Debug\MyEverNote.Entities.dll
+D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEverNote.Entities\obj\Debug\MyEverNote.Entities.pdb

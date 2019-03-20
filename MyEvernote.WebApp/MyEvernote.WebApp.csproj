@@ -38,6 +38,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -94,6 +100,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\shop-homepage.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="Documents\DatabaseDiagrams.PNG" />
     <Content Include="Global.asax" />
     <Content Include="gulpfile.js" />
     <Content Include="index.html" />
@@ -188,6 +195,16 @@
     <Folder Include="Models\" />
     <Folder Include="obj\Debug\TempPE\" />
     <Folder Include="vendor\bootstrap\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MyEvernote.BusinessLayer\MyEvernote.BusinessLayer.csproj">
+      <Project>{7cd476cb-8907-40bb-aad7-d322b57251a3}</Project>
+      <Name>MyEvernote.BusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyEverNote.Entities\MyEverNote.Entities.csproj">
+      <Project>{25ee3946-988d-4b85-ad1b-b70727537c83}</Project>
+      <Name>MyEverNote.Entities</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
