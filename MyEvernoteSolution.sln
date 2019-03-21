@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyEvernote.WebApp", "MyEver
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyEvernote.BusinessLayer", "MyEvernote.BusinessLayer\MyEvernote.BusinessLayer.csproj", "{7CD476CB-8907-40BB-AAD7-D322B57251A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyEverNote.DataAcessLayer", "MyEverNote.DataAcessLayer\MyEverNote.DataAcessLayer.csproj", "{AF90AB17-83F3-40E0-A3AE-3A35E30F2EB9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyEverNote.DataAccessLayer", "MyEverNote.DataAcessLayer\MyEverNote.DataAccessLayer.csproj", "{AF90AB17-83F3-40E0-A3AE-3A35E30F2EB9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyEverNote.Entities", "MyEverNote.Entities\MyEverNote.Entities.csproj", "{25EE3946-988D-4B85-AD1B-B70727537C83}"
 EndProject

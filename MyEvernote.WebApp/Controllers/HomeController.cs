@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MyEvernote.BusinessLayer;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,7 +12,11 @@ namespace MyEvernote.WebApp.Controllers
         // GET: Home
         public ActionResult Index()
         {
-            BusinessLayer.TestData testData = new BusinessLayer.TestData();
+            TestData testData = new TestData();
+            //testData.InsertTest();
+            //testData.UpdateTest();
+            //testData.DeleteTest();
+            testData.CommentTest();
             return View();
         }
     }

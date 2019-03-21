@@ -1,4 +1,4 @@
-﻿using System;
+﻿ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Data.Entity;
 using MyEverNote.Entities;
 
-namespace MyEverNote.DataAcessLayer
+namespace MyEverNote.DataAccessLayer.EntityFramework
 {
     public class Initializer : CreateDatabaseIfNotExists<DatabaseContext>
     {
@@ -27,7 +27,6 @@ namespace MyEverNote.DataAcessLayer
                 ModifiedOn = DateTime.Now.AddMinutes(10),
                 ModifiedUsername = "mertpolat"
             };
-
 
             //Adding Standart User
             EverNoteUser standartUser = new EverNoteUser()
