@@ -1,0 +1,43 @@
+﻿@using MyEvernote.WebApp.ViewModels
+@model LoginViewModel
+@{
+    ViewBag.Title = "Giriş Sayfası";
+}
+<link href="~/Content/login-register.css" rel="stylesheet" />
+
+
+@using (Html.BeginForm())
+{
+    <section class="login-info">
+        <div class="container">
+            <div class="row main">
+                <div class="form-header">
+                    <h1 class="text-center ">Giriş Formu</h1>
+                    <div class="main-content">
+
+                        <div class="input-group ">
+                            <span class="input-group-addon"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></span>
+                            @Html.TextBoxFor(model => model.Username, new { @class = "form-control", placeholder = "Kullanıcı Adınız" })
+                        </div>
+                        <div class="input-group">
+                            <span class="input-group-addon"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span></span>
+                           @Html.TextBoxFor(model => model.Password, new { @class = "form-control", placeholder = "Şifreniz" , type="password"})
+                        </div>
+                        <div class="form-group ">
+                            <button type="submit" class="btn btn-danger btn-lg btn-block login-button">Giriş</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+}
+
+
+<!--footer hiding-->
+@*<script>
+    $(function(){
+        $("footer").hide();
+});
+</script>*@
+

@@ -1,4 +1,5 @@
 ﻿using MyEvernote.BusinessLayer;
+using MyEvernote.WebApp.ViewModels;
 using MyEverNote.Entities;
 using System;
 using System.Collections.Generic;
@@ -22,7 +23,8 @@ namespace MyEvernote.WebApp.Controllers
             //}
 
             NotesManager NoteMan = new NotesManager();
-            return View(NoteMan.GetAllNotes());
+            return View(NoteMan.GetAllNotes().OrderByDescending(x => x.ModifiedOn).ToList());
+            // return View(NoteMan.GetAllNotesQueryable().OrderByDescending(x => x.ModifiedOn).ToList());
         }
 
         public ActionResult ByCategory(int? id)
@@ -41,7 +43,57 @@ namespace MyEvernote.WebApp.Controllers
             }
 
             //TempData["modelCat"] = cat.Notes;
-            return View("Index", cat.Notes);
+            return View("Index", cat.Notes.OrderByDescending(x => x.ModifiedOn).ToList());
+        }
+
+        public ActionResult MostLiked()
+        {
+            NotesManager noteMan = new NotesManager();
+
+            return View("Index", noteMan.GetAllNotes().OrderByDescending(x => x.LikeCount).ToList());
+        }
+
+        public ActionResult About()
+        {
+            return View();
+        }
+
+        public ActionResult Login()
+        {
+            //Giriş Kontolü ve yönlendirme
+            //Sessionda kullanıcı bilgi saklama
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Login(LoginViewModel model)
+        {
+            return View();
+        }
+
+        public ActionResult Register()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Register(RegisterViewModel model)
+        {
+            //Kullanıcı username , eposta kontolü
+            //Kayıt işlemi
+            //Akticasyon e-postası
+            return View();
+        }
+
+        public ActionResult UserActivate(Guid activateId)
+        {
+            //kullanıcı aktivasyonu
+            return View();
+        }
+
+        public ActionResult Logout()
+        {
+            return View();
         }
     }
 }
