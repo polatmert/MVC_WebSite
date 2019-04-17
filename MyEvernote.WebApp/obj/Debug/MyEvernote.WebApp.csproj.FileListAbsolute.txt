@@ -13,7 +13,6 @@ D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MyEvernote.WebApp\obj\Debug\My
 D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEvernote.WebApp\bin\MyEvernote.WebApp.dll.config
 D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEvernote.WebApp\bin\MyEvernote.WebApp.dll
 D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEvernote.WebApp\bin\MyEvernote.WebApp.pdb
-D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEvernote.WebApp\obj\Debug\MyEvernote.WebApp.csprojResolveAssemblyReference.cache
 D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEvernote.WebApp\obj\Debug\MyEvernote.WebApp.dll
 D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEvernote.WebApp\obj\Debug\MyEvernote.WebApp.pdb
 D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEvernote.WebApp\bin\EntityFramework.dll
@@ -28,3 +27,9 @@ D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEvernote.WebApp\
 D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEvernote.WebApp\bin\MyEverNote.DataAcessLayer.pdb
 D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEvernote.WebApp\bin\FakeData.dll
 D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEvernote.WebApp\bin\FakeData.pdb
+D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEvernote.WebApp\bin\Microsoft.Web.Infrastructure.dll
+D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEvernote.WebApp\bin\MyEvernote.BusinessLayer.dll.config
+D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEvernote.WebApp\bin\MyEverNote.DataAcessLayer.dll.config
+D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEvernote.WebApp\obj\Debug\MyEvernote.WebApp.csprojAssemblyReference.cache
+D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEvernote.WebApp\obj\Debug\MyEvernote.WebApp.csproj.CoreCompileInputs.cache
+D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEvernote.WebApp\obj\Debug\MyEvernote.WebApp.csproj.CopyComplete

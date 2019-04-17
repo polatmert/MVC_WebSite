@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
-namespace MyEvernote.WebApp.ViewModels
+namespace MyEvernote.Entities.ValueObject
 {
     public class LoginViewModel
     {

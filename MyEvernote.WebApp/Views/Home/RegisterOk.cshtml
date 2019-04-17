@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewBag.Title = "RegisterOk";
+}
+
+<link href="~/Content/login-register.css" rel="stylesheet" />
+
+
+@using (Html.BeginForm())
+{
+    <section class="login-info">
+        <div class="container">
+            <div class="row main">
+                <div class="form-header">
+                    <h1 class="text-center ">Yönlendiriliyorsunuz</h1>
+                    <div class="main-content">
+                        <h2><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;&nbsp; Kayıt oldunuz...</h2>    
+                        <hr />
+                        <p class="text-justify">
+                            Lütfen e-posta adresinize gönderdiğimiz aktivasyon linkine tıklayarak hesabınızı aktive ediniz.
+                            Hesabınızı aktive etmeden not ekleyemez ve beğenme yapamazsınız.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+}
+
+<script>
+    $(function () {
+
+        $("footer").parent().hide();
+        setTimeout(function () {
+            window.location = "/Home/Index";
+        }, 5000);
+
+    });
+</script>
+

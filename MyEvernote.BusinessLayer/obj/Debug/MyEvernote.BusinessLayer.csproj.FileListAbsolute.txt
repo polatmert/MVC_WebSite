@@ -2,7 +2,6 @@ D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEvernote.Busines
 D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEvernote.BusinessLayer\bin\Debug\MyEvernote.BusinessLayer.pdb
 D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEvernote.BusinessLayer\obj\Debug\MyEvernote.BusinessLayer.dll
 D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEvernote.BusinessLayer\obj\Debug\MyEvernote.BusinessLayer.pdb
-D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEvernote.BusinessLayer\obj\Debug\MyEvernote.BusinessLayer.csprojResolveAssemblyReference.cache
 D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEvernote.BusinessLayer\bin\Debug\MyEvernote.BusinessLayer.dll.config
 D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEvernote.BusinessLayer\bin\Debug\EntityFramework.dll
 D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEvernote.BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
@@ -14,3 +13,7 @@ D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEvernote.Busines
 D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEvernote.BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
 D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEvernote.BusinessLayer\bin\Debug\FakeData.dll
 D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEvernote.BusinessLayer\bin\Debug\FakeData.pdb
+D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEvernote.BusinessLayer\bin\Debug\MyEverNote.DataAcessLayer.dll.config
+D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEvernote.BusinessLayer\obj\Debug\MyEvernote.BusinessLayer.csprojAssemblyReference.cache
+D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEvernote.BusinessLayer\obj\Debug\MyEvernote.BusinessLayer.csproj.CoreCompileInputs.cache
+D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEvernote.BusinessLayer\obj\Debug\MyEvernote.BusinessLayer.csproj.CopyComplete

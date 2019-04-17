@@ -1,9 +1,12 @@
-﻿@using MyEvernote.WebApp.ViewModels
+﻿@using MyEvernote.Entities.ValueObject;
 @model RegisterViewModel
 @{
     ViewBag.Title = "Kayıt Sayfası";
 }
 <link href="~/Content/login-register.css" rel="stylesheet" />
+<style type="text/css">
+ 
+</style>
 
 
 @using (Html.BeginForm())
@@ -14,7 +17,8 @@
                 <div class="form-header">
                     <h1 class="text-center ">Kayıt Formu</h1>
                     <div class="main-content">
-
+                        <!--Error Message-->
+                        @Html.ValidationSummary(false)
                         <div class="input-group ">
                             <span class="input-group-addon"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></span>
                             @Html.TextBoxFor(model => model.Username, new { @class = "form-control", placeholder = "Kullanıcı Adınız" })

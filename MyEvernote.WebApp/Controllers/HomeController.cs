@@ -1,11 +1,9 @@
 ﻿using MyEvernote.BusinessLayer;
-using MyEvernote.WebApp.ViewModels;
+using MyEvernote.Entities.ValueObject;
 using MyEverNote.Entities;
 using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Net;
-using System.Web;
 using System.Web.Mvc;
 
 namespace MyEvernote.WebApp.Controllers
@@ -68,7 +66,22 @@ namespace MyEvernote.WebApp.Controllers
         [HttpPost]
         public ActionResult Login(LoginViewModel model)
         {
-            return View();
+            if(ModelState.IsValid)
+            {
+                EvernoteUserManager everUserManager = new EvernoteUserManager();
+                BusinessLayerResult<EverNoteUser> result = everUserManager.LoginUser(model);
+
+                if (result.Errors.Count > 0)
+                {
+                    result.Errors.ForEach(x => ModelState.AddModelError("", x));
+                    return View(model);
+                }
+
+                Session["login"] = result.Result;  //Session'da bilgi saklama
+                return RedirectToAction("Index");
+            }
+
+            return View(model);
         }
 
         public ActionResult Register()
@@ -79,9 +92,22 @@ namespace MyEvernote.WebApp.Controllers
         [HttpPost]
         public ActionResult Register(RegisterViewModel model)
         {
-            //Kullanıcı username , eposta kontolü
-            //Kayıt işlemi
-            //Akticasyon e-postası
+            if (ModelState.IsValid)
+            {
+                EvernoteUserManager everUserManager = new EvernoteUserManager();
+                BusinessLayerResult<EverNoteUser> res = everUserManager.RegisterUser(model);
+                if (res.Errors.Count > 0)
+                {
+                    res.Errors.ForEach(x => ModelState.AddModelError("", x));
+                    return View(model);
+                }
+            }
+
+            return RedirectToAction("RegisterOk");
+        }
+
+        public ActionResult RegisterOk()
+        {
             return View();
         }
 
