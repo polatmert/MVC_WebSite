@@ -1,0 +1,5 @@
+D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEverNote.Common_\bin\Debug\MyEverNote.Common_.dll
+D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEverNote.Common_\bin\Debug\MyEverNote.Common_.pdb
+D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEverNote.Common_\obj\Debug\MyEverNote.Common_.csproj.CoreCompileInputs.cache
+D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEverNote.Common_\obj\Debug\MyEverNote.Common_.dll
+D:\DERSLER\Github'a eklenenler\MyEvernoteSolution\MVC_WebSite\MyEverNote.Common_\obj\Debug\MyEverNote.Common_.pdb

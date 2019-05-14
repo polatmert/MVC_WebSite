@@ -1,6 +1,7 @@
 ﻿using MyEvernote.DataAccessLayer.EntityFramework;
 using MyEvernote.Entities.ValueObject;
 using MyEverNote.Entities;
+using MyEverNote.Entities.Messages;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,10 +22,10 @@ namespace MyEvernote.BusinessLayer
             if (user != null)
             {
                 if (user.Username == data.Username)
-                    layerResult.Errors.Add("Kullanıcı adı kayıtlı");
+                    layerResult.AddError(ErrorMessageCode.UsernameAlreadyExists, "Kullanıcı adı kayıtlı");
 
                 if (user.Email == data.Email)
-                    layerResult.Errors.Add("Kullanıcı adı kayıtlı");
+                    layerResult.AddError(ErrorMessageCode.EmailAlreadyExists, "Email kayıtlı");
             }
             else
             {
@@ -57,12 +58,15 @@ namespace MyEvernote.BusinessLayer
 
             if (layerResult.Result != null)
             {
-                if(!layerResult.Result.IsActive)
-                    layerResult.Errors.Add("Kullanıcı aktifleştirilmemiştir.Lütfen e-posta adresinizi kontrol ediniz.");
+                if (!layerResult.Result.IsActive)
+                {
+                    layerResult.AddError(ErrorMessageCode.UserIsNotActive, "Kullanıcı aktifleştirilmemiştir");
+                    layerResult.AddError(ErrorMessageCode.CheckYourEmail, "Lütfen e-posta adresinizi kontrol ediniz");
+                }
             }
             else
             {
-                layerResult.Errors.Add("Kullanıcı adı ve şifre uyuşmuyor");
+                layerResult.AddError(ErrorMessageCode.UsernameOrPassWrong, "Kullanıcı adı ve şifre uyuşmuyor");
             }
 
             return layerResult;

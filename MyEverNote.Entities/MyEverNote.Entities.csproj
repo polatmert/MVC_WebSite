@@ -45,6 +45,8 @@
     <Compile Include="EntityBase.cs" />
     <Compile Include="EverNoteUser.cs" />
     <Compile Include="Liked.cs" />
+    <Compile Include="Messages\ErrorMessageCode.cs" />
+    <Compile Include="Messages\ErrorMessageObject.cs" />
     <Compile Include="Note.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ValueObject\LoginViewModel.cs" />

@@ -168,6 +168,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Initializer\WebCommon.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
@@ -211,6 +212,10 @@
     <ProjectReference Include="..\MyEvernote.BusinessLayer\MyEvernote.BusinessLayer.csproj">
       <Project>{7cd476cb-8907-40bb-aad7-d322b57251a3}</Project>
       <Name>MyEvernote.BusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyEverNote.Common_\MyEverNote.Common_.csproj">
+      <Project>{b150392a-5d93-42c5-aa97-a867bda7bab1}</Project>
+      <Name>MyEverNote.Common_</Name>
     </ProjectReference>
     <ProjectReference Include="..\MyEverNote.Entities\MyEverNote.Entities.csproj">
       <Project>{25ee3946-988d-4b85-ad1b-b70727537c83}</Project>

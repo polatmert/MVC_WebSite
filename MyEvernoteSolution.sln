@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.539
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyEvernote.WebApp", "MyEvernote.WebApp\MyEvernote.WebApp.csproj", "{9949CE64-4F68-4877-BB9D-3CABBF584010}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyEverNote.DataAccessLayer", "MyEverNote.DataAcessLayer\MyEverNote.DataAccessLayer.csproj", "{AF90AB17-83F3-40E0-A3AE-3A35E30F2EB9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyEverNote.Entities", "MyEverNote.Entities\MyEverNote.Entities.csproj", "{25EE3946-988D-4B85-AD1B-B70727537C83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyEverNote.Common_", "MyEverNote.Common_\MyEverNote.Common_.csproj", "{B150392A-5D93-42C5-AA97-A867BDA7BAB1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,8 +35,15 @@ Global
 		{25EE3946-988D-4B85-AD1B-B70727537C83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25EE3946-988D-4B85-AD1B-B70727537C83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25EE3946-988D-4B85-AD1B-B70727537C83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B150392A-5D93-42C5-AA97-A867BDA7BAB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B150392A-5D93-42C5-AA97-A867BDA7BAB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B150392A-5D93-42C5-AA97-A867BDA7BAB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B150392A-5D93-42C5-AA97-A867BDA7BAB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC16A7D2-4BBE-469D-BB42-5299EC10E6D1}
 	EndGlobalSection
 EndGlobal
