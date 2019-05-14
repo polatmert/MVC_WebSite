@@ -63,9 +63,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MyEverNote.Common_\MyEverNote.Common_.csproj">
+    <ProjectReference Include="..\MyEverNote.Common_\MyEverNote.Common.csproj">
       <Project>{b150392a-5d93-42c5-aa97-a867bda7bab1}</Project>
-      <Name>MyEverNote.Common_</Name>
+      <Name>MyEverNote.Common</Name>
     </ProjectReference>
     <ProjectReference Include="..\MyEverNote.Entities\MyEverNote.Entities.csproj">
       <Project>{25ee3946-988d-4b85-ad1b-b70727537c83}</Project>

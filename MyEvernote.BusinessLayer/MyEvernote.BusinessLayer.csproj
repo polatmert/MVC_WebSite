@@ -54,9 +54,9 @@
     <Compile Include="TestData.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MyEverNote.Common_\MyEverNote.Common_.csproj">
+    <ProjectReference Include="..\MyEverNote.Common_\MyEverNote.Common.csproj">
       <Project>{b150392a-5d93-42c5-aa97-a867bda7bab1}</Project>
-      <Name>MyEverNote.Common_</Name>
+      <Name>MyEverNote.Common</Name>
     </ProjectReference>
     <ProjectReference Include="..\MyEverNote.DataAcessLayer\MyEverNote.DataAccessLayer.csproj">
       <Project>{af90ab17-83f3-40e0-a3ae-3a35e30f2eb9}</Project>

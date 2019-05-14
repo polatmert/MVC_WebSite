@@ -3,3 +3,13 @@
 ################################################################################
 
 /.vs/MyEvernoteSolution/v15/Server/sqlite3/db.lock
+/MyEvernote.BusinessLayer/bin/Debug
+/MyEvernote.BusinessLayer/obj/Debug
+/MyEverNote.Common_/bin/Debug
+/MyEverNote.Common_/obj/Debug
+/MyEverNote.DataAcessLayer/bin/Debug
+/MyEverNote.DataAcessLayer/obj/Debug
+/MyEverNote.Entities/bin/Debug
+/MyEverNote.Entities/obj/Debug
+/MyEvernote.WebApp/bin
+/MyEvernote.WebApp/obj/Debug

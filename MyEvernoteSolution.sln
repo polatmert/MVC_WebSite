@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyEverNote.DataAccessLayer"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyEverNote.Entities", "MyEverNote.Entities\MyEverNote.Entities.csproj", "{25EE3946-988D-4B85-AD1B-B70727537C83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyEverNote.Common_", "MyEverNote.Common_\MyEverNote.Common_.csproj", "{B150392A-5D93-42C5-AA97-A867BDA7BAB1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyEverNote.Common", "MyEverNote.Common_\MyEverNote.Common.csproj", "{B150392A-5D93-42C5-AA97-A867BDA7BAB1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
