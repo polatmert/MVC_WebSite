@@ -1,4 +1,4 @@
-﻿//using MyEverNote.Common_;
+﻿using MyEverNote.Common_;
 using MyEverNote.DataAccessLayer;
 using MyEverNote.DataAccessLayer.Abstract;
 using MyEverNote.Entities;
@@ -48,7 +48,7 @@ namespace MyEvernote.DataAccessLayer.EntityFramework
 
                 eBase.CreatedOn = now;
                 eBase.ModifiedOn = now;
-               // eBase.ModifiedUsername =  App_.Common_.GetCurrentUsername();
+                eBase.ModifiedUsername = App_.Common_.GetCurrentUsername();
             }
             return Save();
         }
@@ -60,7 +60,7 @@ namespace MyEvernote.DataAccessLayer.EntityFramework
                 EntityBase eBase = obj as EntityBase;
 
                 eBase.ModifiedOn = DateTime.Now;
-               // eBase.ModifiedUsername = App_.Common_.GetCurrentUsername();
+                eBase.ModifiedUsername = App_.Common_.GetCurrentUsername();
             }
             return Save();
         }

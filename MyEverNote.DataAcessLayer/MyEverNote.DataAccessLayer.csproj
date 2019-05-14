@@ -63,6 +63,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\MyEverNote.Common_\MyEverNote.Common_.csproj">
+      <Project>{b150392a-5d93-42c5-aa97-a867bda7bab1}</Project>
+      <Name>MyEverNote.Common_</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MyEverNote.Entities\MyEverNote.Entities.csproj">
       <Project>{25ee3946-988d-4b85-ad1b-b70727537c83}</Project>
       <Name>MyEverNote.Entities</Name>
