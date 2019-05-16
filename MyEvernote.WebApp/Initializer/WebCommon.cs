@@ -17,7 +17,7 @@ namespace MyEvernote.WebApp.Initializer
                 return user.Username;
             }
 
-            return null;
+            return "system";
         }
     }
 }

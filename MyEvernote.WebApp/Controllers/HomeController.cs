@@ -3,6 +3,7 @@ using MyEvernote.Entities.ValueObject;
 using MyEverNote.Entities;
 using MyEverNote.Entities.Messages;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Web.Mvc;
@@ -117,12 +118,35 @@ namespace MyEvernote.WebApp.Controllers
             return View();
         }
 
-        public ActionResult UserActivate(Guid activateId)
+        public ActionResult UserActivate(Guid id)
         {
-            //kullanıcı aktivasyonu
+            EvernoteUserManager eum = new EvernoteUserManager();
+            BusinessLayerResult<EverNoteUser> res = eum.ActivateUser(id);
+
+            if (res.Errors.Count>0)
+            {
+                TempData["errors"] = res.Errors;
+                return RedirectToAction("UserActivateCancel");
+            }
+            return RedirectToAction("UserActivateOk");
+        }
+
+        public ActionResult UserActivateOk()
+        {
             return View();
         }
 
+
+        public ActionResult UserActivateCancel()
+        {
+            List<ErrorMessageObject> errors = null;
+
+            if (TempData["errors"] != null)
+            {
+              errors = TempData["errors"] as List<ErrorMessageObject>;
+            }
+            return View(errors);
+        }
         public ActionResult Logout()
         {
             Session.Clear();

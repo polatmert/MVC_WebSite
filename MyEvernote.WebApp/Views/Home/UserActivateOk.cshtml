@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewBag.Title = "Hesap Aktifleştirildi";
+}
+
+<link href="~/Content/login-register.css" rel="stylesheet" />
+
+
+@using (Html.BeginForm())
+{
+    <section class="login-info">
+        <div class="container">
+            <div class="row main">
+                <div class="form-header">
+                    <h1 class="text-center ">Yönlendiriliyorsunuz</h1>
+                    <div class="main-content">
+                        <h2><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;&nbsp; KHesap Aktifleştirildi..</h2>
+                        <hr />
+                        <p class="text-justify">
+                            Lütfen e-posta adresinize gönderdiğimiz aktivasyon linkine tıklayarak hesabınızı aktive ediniz.
+                            Hesabınız aktifleştirildi.Artık not paylaşabilir ve beğeni yapabilirsiniz.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+}
+
+<script>
+    $(function () {
+
+        $("footer").parent().hide();
+        setTimeout(function () {
+            window.location = "/Home/Index";
+        }, 5000);
+
+    });
+</script>
+

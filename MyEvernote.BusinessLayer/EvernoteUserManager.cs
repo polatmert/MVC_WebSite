@@ -1,5 +1,6 @@
 ﻿using MyEvernote.DataAccessLayer.EntityFramework;
 using MyEvernote.Entities.ValueObject;
+using MyEverNote.Common_.Helpers;
 using MyEverNote.Entities;
 using MyEverNote.Entities.Messages;
 using System;
@@ -43,8 +44,10 @@ namespace MyEvernote.BusinessLayer
                 {
                     layerResult.Result = repo_user.Find(x => x.Email == data.Email && x.Username == data.Username);
 
-                    //TODO:Aktivasyon maili atılacak
-                    // layerResult.Result.ActivateGuid
+                    string siteUri = ConfigHelper.Get<string>("SiteRootUri");
+                    string activateUri=$"{siteUri}/Home/UserActivate/{layerResult.Result.ActivateGuid}";
+                    string body  =($"Merhaba{layerResult.Result.Username} <br><br> Hesabınızı aktifleştirmek için <a href='{activateUri}' target='_blank'>tıklayınız</a>.");
+                    MailHelper.SendMail(body, layerResult.Result.Email, "MyEverNote Hersap Aktifleştirme");
                 }
             }
 
@@ -69,6 +72,28 @@ namespace MyEvernote.BusinessLayer
                 layerResult.AddError(ErrorMessageCode.UsernameOrPassWrong, "Kullanıcı adı ve şifre uyuşmuyor");
             }
 
+            return layerResult;
+        }
+
+        public BusinessLayerResult<EverNoteUser> ActivateUser(Guid activadeId)
+        {
+            BusinessLayerResult<EverNoteUser> layerResult = new BusinessLayerResult<EverNoteUser>();
+            layerResult.Result = repo_user.Find(x => x.ActivateGuid == activadeId);
+
+            if(layerResult.Result != null)
+            {
+                if(layerResult.Result.IsActive)
+                {
+                    layerResult.AddError(ErrorMessageCode.UserAlreadyActivate, "Kullanıcı zaten aktif edilmiştir.");
+                    return layerResult;
+                }
+                layerResult.Result.IsActive = true;
+                repo_user.Update(layerResult.Result);
+            }
+            else
+            {
+                layerResult.AddError(ErrorMessageCode.ActivateIdDoesNotExists, "Aktifleştirilecek kullanıcı bulunamadı.");
+            }
             return layerResult;
         }
     }

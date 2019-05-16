@@ -7,5 +7,7 @@
         UserIsNotActive = 151,
         UsernameOrPassWrong = 152,
         CheckYourEmail = 153,
+        UserAlreadyActivate = 154,
+        ActivateIdDoesNotExists = 155
     }
 }

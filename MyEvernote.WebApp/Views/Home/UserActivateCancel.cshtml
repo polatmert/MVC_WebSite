@@ -1,0 +1,45 @@
+﻿@using MyEverNote.Entities.Messages
+@model List<ErrorMessageObject>
+@{
+    ViewBag.Title = "Hesap Geçersiz";
+}
+
+<link href="~/Content/login-register.css" rel="stylesheet" />
+
+
+@using (Html.BeginForm())
+{
+    <section class="login-info">
+        <div class="container">
+            <div class="row main">
+                <div class="form-header">
+                    <h1 class="text-center ">Yönlendiriliyorsunuz</h1>
+                    <div class="main-content">
+                        <div class="text-danger">
+                            <h2><span class="glyphicon glyphicon-remove"></span>&nbsp;&nbsp;&nbsp; Hesap geçerli değil..</h2>
+                            <hr />
+                            <p class="text-justify">
+                                @foreach (ErrorMessageObject err in Model)
+                                {
+                                    @err.Message<br>
+                                }
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+}
+
+<script>
+    $(function () {
+
+        $("footer").parent().hide();
+        setTimeout(function () {
+            window.location = "/Home/Index";
+        }, 5000);
+
+    });
+</script>
+
