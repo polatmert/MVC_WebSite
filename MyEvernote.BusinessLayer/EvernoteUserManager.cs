@@ -39,7 +39,7 @@ namespace MyEvernote.BusinessLayer
                     IsAdmin = false              
                 });
 
-                if (dbResult > 1)
+                if (dbResult > 0)
                 {
                     layerResult.Result = repo_user.Find(x => x.Email == data.Email && x.Username == data.Username);
 
